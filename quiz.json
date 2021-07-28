@@ -2,17 +2,17 @@
   "questions": [
     {
       "answers": [
-        "Loch Ness Monster",
-        "Centaur",
-        "Unicorn",
-        "Mermaid"
+        "True",
+        "False"
       ],
       "correct": {
-        "index": 2,
-        "text": "The unicorn is a mythical creature. Strong, wild, and fierce, it was impossible to tame by man. Plinie, the Roman naturalist records it as \"a very ferocious beast, similar in the rest of its body to a horse, with the head of a deer, the feet of an elephant, the tail of a boar, a deep, bellowing voice, and a single black horn, two cubits in length, standing out in the middle of its forehead.\""
+        "index": 0,
+        "text": "This is a spam email! Although the link looks credible and like a real zoom email, the recipient is not someone within the NDBR network. Also, hovering over the URL shows that it does not link to zoom but to yypd.eef.\""
       },
       "number": 1,
-      "prompt": "Which of the following is the most real?"
+      "image": "email1.jpg",
+      "image_credit": "Andy Wells at NDBR",
+      "prompt": "Is this a spam email?"
     },
     {
       "answers": [
