@@ -7,7 +7,7 @@
       ],
       "correct": {
         "index": 0,
-        "text": "This is a spam email! Although the link looks credible and like a real zoom email, the recipient is not someone within the NDBR network. Also, hovering over the URL shows that it does not link to zoom but to yypd.eef.\""
+        "text": "This is a spam email! Although the link looks credible and like a real zoom email, the recipient is not someone within the NDBR network. Also, hovering over the URL shows that it does not link to zoom but to yypd.eef.\"
       },
       "number": 1,
       "image": "email1.jpg",
