@@ -275,7 +275,7 @@ var $indicators = $('<ol>')
 
   var $social = $("<div>")
     .attr('class', 'results-social')
-    .html('<div id = "social-text">Did you like the quiz? Share your results with your friends, so they can give it a shot!</div>')
+    .html('<div id = "social-text">Please email any feedback to karolina.groszewska@gmail.com</div>')
     .appendTo($results_slide);
 
   var $twitter_link = $('<a>')
