@@ -29,7 +29,7 @@
         "False"
       ],
       "correct": {
-        "index": 0
+        "index": 0,
         "text": "Yes, this a spam email. The sender of the email looks legitimate, but the 'mailto:' prefix often gives away that a script was used to send the email. In addition, hovering over the link reveals that the link does not go directly to zoom but to ydd.efe, an unknown URL. This is a very convincing spam email, beware!"
       },
       "image": "image1.jpg",
