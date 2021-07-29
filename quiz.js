@@ -82,7 +82,7 @@ var $indicators = $('<ol>')
 
   $("<button>")
     .attr('class', 'quiz-button btn')
-    .text("Take the quiz!")
+    .text("Start the quiz")
     .click(function() {
       $quiz.carousel('next');
       $indicators.addClass('show');
@@ -174,7 +174,7 @@ var $indicators = $('<ol>')
       // answer dialogue
       if (correct) {
         opts = $.extend(opts, {
-          title: "Nice!",
+          title: "Correct",
           text: "Well done" + (
             question.correct.text ?
             ("<div class=\"correct-text\">" +
@@ -185,9 +185,9 @@ var $indicators = $('<ol>')
         });
       } else {
         opts = $.extend(opts, {
-          title: "Drat",
+          title: "Incorrect",
           text: (
-            "Nope, not quite right!<br/><br/>" +
+            "Not quite right!<br/><br/>" +
             "The correct answer was \"" +
             question.answers[question.correct.index] + "\"." + (
             question.correct.text ?
@@ -201,7 +201,7 @@ var $indicators = $('<ol>')
       }
 
       if (last_question) {
-        opts.confirmButtonText = "See your results";
+        opts.confirmButtonText = "Show Results";
       }
 
       // bind click event to answer button,
