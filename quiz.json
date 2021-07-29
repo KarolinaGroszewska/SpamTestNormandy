@@ -62,7 +62,7 @@
         "False"
       ],
       "correct": {
-        "index": 0,
+        "index": 1,
         "text": "No, this is not a spam email. The sender is a trusted NDBR user, and the zoom link in the email matches the zoom link when the link is hovered."
       },
       "image": "image5.jpg",
@@ -76,7 +76,7 @@
         "False"
       ],
       "correct": {
-        "index": 0,
+        "index": 1,
         "text": "No, this is not a spam email. The sender has a valid Microsoft email, and the email matches the actions of the user. Hovering over the support page button leads to a legitimate link, same with the unsubscribe link. The footer also matches the location of the Microsoft headquarters."
       },
       "image": "image6.jpg",
