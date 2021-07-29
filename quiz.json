@@ -55,6 +55,34 @@
       "image_credit": "Security Metrics",
       "number": 4,
       "prompt": "Is this a spam email?"
+    },
+    {
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "No, this is not a spam email. The sender is a trusted NDBR user, and the zoom link in the email matches the zoom link when the link is hovered."
+      },
+      "image": "image5.jpg",
+      "image_credit": "Karolina Groszewska at NDBR",
+      "number": 5,
+      "prompt": "Is this a spam email?"
+    },
+    {
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "No, this is not a spam email. The sender has a valid Microsoft email, and the email matches the actions of the user. Hovering over the support page button leads to a legitimate link, same with the unsubscribe link. The footer also matches the location of the Microsoft headquarters."
+      },
+      "image": "image6.jpg",
+      "image_credit": "Karolina Groszewska at NDBR",
+      "number": 6,
+      "prompt": "Is this a spam email?"
     }
   ],
   "title": "How well can you identify spam mail?",
