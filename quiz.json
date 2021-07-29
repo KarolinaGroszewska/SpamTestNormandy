@@ -7,9 +7,11 @@
       ],
       "correct": {
         "index": 0,
-        "text": "Yes, this a spam email!"
+        "text": "This is a spam email. The best way to discern that is looking at the sender of the email, which is not a valid support email."
       },
       "number": 1,
+      "image": "image2.jpg",
+      "image_credit": "Security Metrics",
       "prompt": "Is this a spam email?"
     },
     {
@@ -18,9 +20,12 @@
         "False"
       ],
       "correct": {
-        "index": 0
+        "index": 0,
+        "text": "This is a spam email. The sender email looks quite convincing, but it is always worth it to hover over the link. Furthermore, sign-in emails should not come from a news email, or from the Nokia group in Finland."
       },
       "number": 2,
+      "image": "image3.jpg",
+      "image_credit": "Security Metrics",
       "prompt": "Is this a spam email?"
     },
     {
@@ -35,6 +40,20 @@
       "image": "image1.jpg",
       "image_credit": "Andy Wells at NDBR",
       "number": 3,
+      "prompt": "Is this a spam email?"
+    },
+    {
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "Yes, this a spam email. The sender of the email does not match USPS emails. This email is extra dangerous as the whole email is masqueraded to be a link."
+      },
+      "image": "image4.jpg",
+      "image_credit": "Security Metrics",
+      "number": 4,
       "prompt": "Is this a spam email?"
     }
   ],
