@@ -313,22 +313,22 @@ function resultsText(state) {
 
   switch (true) {
     case (ratio === 1):
-      text = "Wow&mdash;perfect score!";
+      text = "Perfect Score!";
       break;
     case (ratio > 0.9):
-      text = "Awesome job, you got most of them right.";
+      text = "Awesome job, you got most of them right!";
       break;
     case (ratio > 0.60):
-      text = "Pretty good, we'll say that's a pass.";
+      text = "Pretty good, hopefully you learned something from our examples!";
       break;
     case (ratio > 0.5):
-      text = "Well, at least you got half of them right&hellip;";
+      text = "You got more than half of them right! Still some room for improvement.";
       break;
     case (ratio < 0.5 && ratio !== 0):
-      text = "Looks like this was a tough one, better luck next time.";
+      text = "Looks like this was a tough exercise, but we hope you learned a lot!";
       break;
     case (ratio === 0):
-      text = "Yikes, none correct. Well, maybe it was rigged?";
+      text = "Oh no, none correct. Hopefully, you will learn from your mistakes!";
       break;
   }
   return text;
