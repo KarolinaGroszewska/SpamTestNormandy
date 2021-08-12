@@ -30,6 +30,18 @@
     },
     {
       "answers": [
+        "Next"
+      ],
+      "correct": {
+        "index": 0,
+      },
+      "number": 2,
+      "image": "image3.jpg",
+      "image_credit": "Security Metrics",
+      "prompt": "Highlights of suspicious aspects"
+    },
+    {
+      "answers": [
         "True",
         "False"
       ],
