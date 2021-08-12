@@ -83,6 +83,18 @@
       "image_credit": "Karolina Groszewska at NDBR",
       "number": 6,
       "prompt": "Is this a spam email?"
+    },
+    {
+      "answers": [
+        "Next"
+      ],
+      "correct": {
+        "index": 0
+      },
+      "image": "image6.jpg",
+      "image_credit": "Karolina Groszewska at NDBR",
+      "number": 7,
+      "prompt": "Explanation for #6"
     }
   ],
   "title": "How well can you identify spam mail?",
