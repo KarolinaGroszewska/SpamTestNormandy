@@ -35,7 +35,7 @@
       "correct": {
         "index": 0,
       },
-      "number": 2,
+      "number": 3,
       "image": "image3.jpg",
       "image_credit": "Security Metrics",
       "prompt": "Highlights of suspicious aspects"
@@ -51,7 +51,7 @@
       },
       "image": "image1.jpg",
       "image_credit": "Andy Wells at NDBR",
-      "number": 3,
+      "number": 4,
       "prompt": "Is this a spam email?"
     },
     {
@@ -65,7 +65,7 @@
       },
       "image": "image4.jpg",
       "image_credit": "Security Metrics",
-      "number": 4,
+      "number": 5,
       "prompt": "Is this a spam email?"
     },
     {
@@ -79,7 +79,7 @@
       },
       "image": "image5.jpg",
       "image_credit": "Karolina Groszewska at NDBR",
-      "number": 5,
+      "number": 6,
       "prompt": "Is this a spam email?"
     },
     {
@@ -93,7 +93,7 @@
       },
       "image": "image6.jpg",
       "image_credit": "Karolina Groszewska at NDBR",
-      "number": 6,
+      "number": 7,
       "prompt": "Is this a spam email?"
     }
   ],
