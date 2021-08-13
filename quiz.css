@@ -26,11 +26,6 @@ html, body {
   clear: both;
 }
 
-.sweet-alert button {
- border-radius: 0;
-    text-transform: uppercase;
-    font-weight: 400;
-}
 .quiz-button.btn {
   margin-top: 10px;
   background-color: #ddd;
